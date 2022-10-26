@@ -6,6 +6,7 @@
 
 use serde::{Deserialize, Deserializer, Serialize};
 
+pub mod error;
 pub mod hlr_lookup;
 pub mod ip_blocklist;
 pub mod ip_info;
