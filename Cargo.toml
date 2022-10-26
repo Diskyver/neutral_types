@@ -1,0 +1,23 @@
+[package]
+name = "neutral_types"
+authors = ["Maximilien DI DIO <mdidio@pm.me>"]
+version = "0.1.0"
+edition = "2021"
+description = "neutrinoapi.com types for the neutral crate"
+keywords = ["neutrinoapi", "client", "api", "neutral"]
+repository = "https://github.com/Diskyver/neutral_types"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde_json = "1"
+serde_with = "1.14.0"
+
+[dependencies.serde]
+version = "1"
+features = ['derive']
+
+[lib]
+name = "neutral_types"
+path = "src/lib.rs"
